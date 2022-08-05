@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create product</title>
+    <script src="/assets/js/createProduct.js"></script>
+  </head>
+  <body>
+    <div class="menuBar">
+      <a href="index">Homepage</a>
+
+      <a href="updateUser"> Update user</a>
+
+      <a href="deleteUser"> Delete user</a>
+
+      <a href="createProduct"> Create product</a>
+
+      <a href="updateProduct"> Update Product</a>
+
+      <a href="deleteProduct"> Delete product </a>
+
+      <a href="showProducts"> Show products </a> 
+    </div>
+    <h1>Opret den varer du vil sætte til salg</h1>
+    <br />
+    <br />
+    <div class="createProduct">
+      <div class="form">
+        <form id="product-form">
+          <input type="text" placeholder="Product name" id="product_name" />
+          <input type="number" placeholder="Pris" id="price" />
+          <input required type="url" name="image" placeholder="https://google.com/myimage.png">
+          <label for="categories">Category :</label>
+          <select name="categories" id="productCategory">
+            <option value="Portvin">Portvin</option>
+            <option value="Gin">Gin</option>
+            <option value="Vodka">Vodka</option>
+            <option value="Vin">Vin</option>
+            <option value="Andet">Andet</option>
+          </select>
+          <input value="Submit" type="submit" />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

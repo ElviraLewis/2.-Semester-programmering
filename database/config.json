@@ -1,0 +1,14 @@
+{
+  "server": "gruppe33server.database.windows.net",
+  "authentication": {
+    "type": "default",
+    "options": {
+      "userName": "Gruppe33",
+      "password": "Laveforventninger1"
+    }
+  },
+  "options": {
+    "encrypt": true,
+    "database": "Gruppe33DB"
+  }
+}

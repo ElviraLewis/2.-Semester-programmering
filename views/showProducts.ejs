@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Show my products</title>
+    <script src="/assets/js/showProducts.js"></script>
+  </head>
+  <body>
+    <div class="menuBar">
+      <a href="index">Homepage</a>
+
+      <a href="updateUser"> Update user</a>
+
+      <a href="deleteUser"> Delete user</a>
+
+      <a href="createProduct"> Create product</a>
+
+      <a href="updateProduct"> Update Product</a>
+
+      <a href="deleteProduct"> Delete product </a>
+
+      <a href="showProducts"> Show products </a> 
+  </div>
+    <h1>Show products</h1>
+    <div id="container">
+      <button id="showAllProducts">Vis Mine Produkter</button>
+      <table id="seeAll"></table>
+
+      <h1>Vælg kategori</h1>
+      <div id="categoryContainer">
+        <label for="categories">Category :</label>
+        <select name="categories" id="productCategory">
+          <option value="Portvin">Portvin</option>
+          <option value="Gin">Gin</option>
+          <option value="Vodka">Shoes and Clothes</option>
+          <option value="Vin">Vin</option>
+          <option value="Andet">Andet</option>
+        </select>
+        <table id="seeCategory"></table>
+      </div>
+    </div>
+  </body>
+</html>

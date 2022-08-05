@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Porto Dorito</title>
+  </head>
+  <body>
+    <div class="menuBar">
+      <a href="index">Homepage</a>
+
+      <a href="updateUser"> Update user</a>
+
+      <a href="deleteUser"> Delete user</a>
+
+      <a href="createProduct"> Create product</a>
+
+     <a href="updateProduct"> Update Product</a>
+
+      <a href="deleteProduct"> Delete product </a>
+
+      <a href="showProducts"> Show products </a> 
+  </div>
+  <h1>
+    Indtast dine nye oplysninger her
+  </h1>
+  <br />
+  <br />
+    <form id="updateBrugerForm">
+      <!--vi laver et input felt nu vha en form tag-->
+      
+      Name:
+      <input
+        type="text"
+        name="userName"
+        id="userName"
+        placeholder="Your Name"
+      />
+      Password:
+      <input
+      type="text"
+      name="password"
+      id="password"
+      placeholder="Password"
+      />
+        
+      </form>
+      
+
+      Submit: <button id="submit">Submit</button>
+    </form>
+
+    <script src="/assets/js/updateUser.js"></script>
+  </body>
+</html>

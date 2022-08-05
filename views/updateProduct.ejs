@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Porto Dorito</title>
+  </head>
+  <body>
+    <div class="menuBar">
+      <a href="index">Homepage</a>
+
+      <a href="updateUser"> Update user</a>
+
+      <a href="deleteUser"> Delete user</a>
+
+      <a href="createProduct"> Create product</a>
+
+      <a href="updateProduct"> Update Product</a>
+
+      <a href="deleteProduct"> Delete product </a>
+
+      <a href="showProducts"> Show products </a> 
+  </div>
+  <h1>
+    Update product here 
+  </h1>
+  <br />
+    <br />
+    <form id="submitproductform">
+
+      ID: 
+      <input
+        type="text"
+        name="productid"
+        id="productid"
+        placeholder="Product id"
+      />
+
+      Name:
+      <input
+        type="text"
+        name="productName"
+        id="productName"
+        placeholder="Product Name"
+      />
+
+      <form action="#">
+        <label for="categories">Category :</label>
+        <select name="categories" id="productCategory">
+          <option value="Portvin">Portvin</option>
+          <option value="Gin">Gin</option>
+          <option value="Vodka">Shoes and Clothes</option>
+          <option value="Vin">Vin</option>
+          <option value="Andet">Andet</option>
+        </select>
+      </form>
+      Price:
+      <input
+        type="number"
+        name="productPrice"
+        id="productPrice"
+        placeholder="Product Price"
+      />
+      File: <input type="file" name="thumbnail" /><br /><br />
+
+      Submit: <button id="submit">Submit</button>
+    </form>
+
+    <script src="/assets/js/updateProduct.js"></script>
+  </body>
+</html>
